@@ -3888,14 +3888,14 @@ ini kaos dewasa
         document.getElementById('checkout-button').addEventListener('click', () => {
             const phoneNumber = '6282354730849'; // Ganti dengan nomor WhatsApp Anda
             let message = 
-            'SILAKAN ISI TITIK-TITIK UNTUK DATA ANDA :%0A__________________________________%0ANama : .... %0AEmail : .... %0ANo.HP : .... %0AAlamat(lengkap) : .... %0A__________________________________%0A';
+            'SILAKAN ISI TITIK-TITIK UNTUK DATA ANDA :%0A_________________%0ANama : .... %0AEmail : .... %0ANo.HP : .... %0AAlamat(lengkap) : .... %0A_________________%0A';
 
             cart.forEach(item => {
-                message += ` => Pesan ${item.name} (x${item.quantity}) : ${formatRupiah(item.price * item.quantity)} <= %0AUkuran/Size : .... %0AWarna : ....%0AKeterangan(Tambahan) : .... %0A__________________________________%0A`;
+                message += ` => Pesan ${item.name} (x${item.quantity}) : ${formatRupiah(item.price * item.quantity)} <= %0AUkuran/Size : .... %0AWarna : ....%0AKeterangan(Tambahan) : .... %0A_________________%0A`;
             });
 
             const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
-            message += `Total: ${formatRupiah(total)}%0A__________________________________%0ATERIMAKASIH :)`;
+            message += `Total: ${formatRupiah(total)}%0A_________________%0ATERIMAKASIH :)`;
             
             const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`;
             window.open(whatsappURL, '_blank');
