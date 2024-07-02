@@ -20,7 +20,8 @@
 .home-utama {
   text-align: right;
   margin-right: 0;
-}
+} 
+
 .navbar-row {
   display: flex;
 }
@@ -214,4 +215,15 @@
 }
 
 @media screen(max-width:480px) {
+}
+.beranda{
+  font-size: 25px;
+  color: white;
+  border: 1px solid black;
+  background-color: seagreen;
+  padding: 1px 3px;
+  font-family: serif;
+  position: sticky;
+  bottom: 0;
+  width: 3rem;
 }
