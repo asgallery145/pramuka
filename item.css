@@ -217,6 +217,7 @@
 @media screen(max-width:480px) {
 }
 .beranda{
+  floating: left;
   font-size: 25px;
   color: white;
   border: 1px solid black;
