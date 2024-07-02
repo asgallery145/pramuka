@@ -218,12 +218,12 @@
 }
 .beranda{
   floating: left;
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   border: 1px solid black;
   background-color: tomato;
   padding: 1px 3px;
-  font-family: serif;
+  font-family: arial;
   position: sticky;
   bottom: 0;
   width: 9rem;
