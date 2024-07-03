@@ -44,7 +44,6 @@ body {
   list-style-type: none;
   text-decoration: none;
   background-color: brown;
-  border-bottom: 3px solid black;
   border-radius: 5px;
   padding: 0 25px;
 }
