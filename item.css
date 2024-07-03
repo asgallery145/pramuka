@@ -106,8 +106,9 @@
   width: 100%;
 }
 .modal-title {
-  text-align: justify;
+  text-align: left;
   margin-top: 4rem;
+  font-size: 14px;
 }
 .item-detail-button {
   font-size: larger;
